@@ -6,7 +6,6 @@ import pickle
 import streamlit as st
 
 #try:
-matplotlib.use('TkAgg')
 st.title('Bentonite Co  &  Albrehta Co')
 st.title('HDD project calculator')
 #bent = st.checkbox('base bentonite')
@@ -414,4 +413,5 @@ else:
 #    st.error("Ошибка ввода данных")
  
        
+
 
