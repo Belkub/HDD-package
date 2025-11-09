@@ -6,7 +6,7 @@ import pickle
 import streamlit as st
 
 try:
-    st.title('Bentonite Co  &  Albrehta Co')
+    
     st.title('HDD project calculator')
     #bent = st.checkbox('base bentonite')
     #col1, col2 = st.columns(2)
@@ -413,6 +413,7 @@ except:
     st.error("Ошибка ввода данных")
  
        
+
 
 
 
