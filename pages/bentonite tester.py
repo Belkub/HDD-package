@@ -6,7 +6,6 @@ import pickle
 import streamlit as st
 
 #matplotlib.use('TkAgg')
-st.title('Bentonite Co  &  Albrehta Co')
 st.title('HDD BENTONITE MUD-TESTER')
 #bent = st.checkbox('base bentonite')
 #col1, col2 = st.columns(2)
@@ -541,3 +540,4 @@ if st.button('TEST'):
                 st.warning('Выносящая способность достаточно хорошая для крупного песка и гравия')
             else:
                 st.error('Выносящая способность в крупном песке неудовлетворительна')
+
